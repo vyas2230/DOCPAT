@@ -1,0 +1,345 @@
+/* html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+} */
+/* 
+.logohead {
+    background:black;
+    height: 68px;
+    width: 100%;
+
+    
+}
+
+.logohead img{
+    width: 75px;
+    height: 70px;
+    padding: 3px 5px;
+    
+}
+
+
+.logohead a{
+    color:white;
+    float: right;
+    height: 10px;
+    list-style: none;
+    padding: 20px 30px 20px 10px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logohead a:hover{
+    color:teal;
+    /*background-color: teal;*/
+    /* width: auto; */
+    /*padding-top: 20px;*/
+
+
+/* 
+.main img {
+    width: 100%;
+    height: 600px;
+    
+} */
+
+.btn {
+    background-color: #fa440c;
+    width: 400px;
+    height: 50px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    
+    transition: 0.3s;
+    /*margin-left: 250px;*/
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+    
+  }
+
+
+ 
+
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* .tabsmain1 a {
+  padding: 0px 10px 2px 10px;
+  font-size: 40px;
+  width: 200px;
+  height: 600px;
+  text-decoration: none;
+  background-color: crimson;
+  color: blanchedalmond;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+.headtab1 h1{
+    color:rgb(218, 198, 219);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("leaves.jpg");
+    border-radius: 10PX;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Style the tab */
+.tab1 {
+  margin-left: 10%;
+  float: left;
+  /* border: 1px solid #ccc; */
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 250px;
+}
+
+
+
+/* Style the buttons inside the tab */
+.tab1 button {
+  display: block;
+  background-color: black;
+  color:white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color:darkgoldenrod;
+}
+
+/* Create an active/current "tab button" class */
+.tab1 button.active {
+  background-color:teal;
+}
+
+/* Style the tab content */
+.tabcontent1 {
+  margin-bottom: 5%;
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  color: whitesmoke;
+  /* font-size: 50px; */
+  /* border-left: none; */
+  height: 580px;
+}
+
+  .vaccines button{
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 30px;
+  }
+
+  .vaccines{
+    display: inline-flex;
+  }
+
+  .vaccines2{
+    display: inline-flex;
+  }
+
+  .location{
+    /* display: flexbox; */
+    padding: 10px;
+    flex-direction: column;
+  }
+
+   .website{
+    background-color: teal;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   cursor: pointer;
+  } 
+
+  .phone{
+    font-size: larger;
+  }
+  .address{
+    padding-top: 5%;
+    font-size: larger;
+    text-align: center;
+  }
+
+/* Footer & Header */
+
+  
+
+  footer {
+    background: black;
+    font-family: Rubik,Arial,sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      /* overflow-x: hidden; */
+      color: white  ;
+    }
+    
+    .container{
+    margin: 0px !important;
+    max-width: 1600px !important;
+    padding-left: 0px !important;
+    flex-direction: column;
+    }
+    
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    color: darkgrey !important;
+    }
+    
+    .row{
+    margin-left: 0px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    body{
+      margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .topnav {
+      background-color: black;
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 25px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown {
+      float: right;
+      overflow: hidden;
+    }
+    
+    .topnav > img{
+      float: left;
+      padding-top: 5px;
+      padding-left: 20px;
+      width: 70px;
+      height: 65px;
+    }
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn {
+      font-size: 17px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    /* Add a dark background on topnav links and the dropdown button on hover */
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: #555;
+      color: white;
+    }
+    
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+    }
