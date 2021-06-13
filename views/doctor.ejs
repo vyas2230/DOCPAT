@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <title>Doctors</title>
+</head>
+<body>
+    <div class="topnav" >
+        <img src="/img/LOGONEW.png" style="height: 70px;">
+        <!--<a href="/logout"><button class="btn btn-danger" style=" float:right; margin-top: -1px; cursor: pointer; margin-right: 25px; background-color: rgb(24, 74, 121); color: cornsilk; border: none; outline: none; height:23px;">LOGOUT</button></a>-->
+        <div class="dropdown">
+            <button class="dropbtn" style="padding-right: 70px; padding-top: 26px;"><%= name %>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/profile">Profile</a>
+              <a href="/everyday">BMI</a>
+              <a href="/delete">Delete Account</a>
+              <a href="/logout  ">Logout</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" style="padding-top: 26px;">FEATURES
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/asmr/main">ASMR</a>
+              <a href="/bodyfacts">BODY FACTS</a>
+              <a href="/Homeremedy">HOME REMEDY</a>
+              <a href="/everyday">YOGA</a>
+              <a href="/covidtracker">COVID-19 TRACKER</a>
+              <a href="/Vaccination_centre">VACCINATION CENTRE</a>
+            </div>
+        </div>
+        <a href="/special">DOCTOR</a>
+        <a href="/predict">PREDICTION</a>
+        <a href="/home">HOME</a>
+      </div>
+
+      <!--DOCTORS INFO-->
+
+        <div style="text-align:center">
+          <h2 style="font-size: 50px;"><%= header %></h2>
+          <p style="font-size: 30px;">Meet Our Specialists</p>
+        </div>
+        
+        
+        <div class="row1">
+          <div class="column" onclick="openTab('b1');" style="background:teal;">
+            Dr. Saniya Mustafayeva
+          </div>
+          <div class="column" onclick="openTab('b2');" style="background:tomato;">
+            Dr. Kris Conerad
+          </div>
+          <div class="column" onclick="openTab('b3');" style="background:teal;">
+            Dr. Bhaskar Santham
+          </div>
+          <div class="column" onclick="openTab('b4');" style="background: tomato;">
+            Dr. Avantika Mishra
+          </div>
+        </div>
+        
+        <!-- Full-width columns: (hidden by default) -->
+        <div id="b1" class="containerTab" style="display:none;background:rgb(27, 29, 29)">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img src="/img/Cardio1.jpg" style="margin-left: 100px;">
+          <p style="float: right; margin-right: 200px; margin-top: 55px; font-size: 20px; line-height: 40px;">
+                LOCATION: Jaipur<br />
+                EMAIL: saniya28@gmail.com<br />
+                GENDER: Female<br />
+                CONTACT: +91 9910068528 <br />
+          </p>
+        </div>
+        
+        <div id="b2" class="containerTab" style="display:none;background:rgb(27, 29, 29)">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img src="/img/Cardio2.jpeg" style="margin-left: 100px;">
+          <p style="float: right; margin-right: 200px; margin-top: 55px; font-size: 20px; line-height: 40px;">
+                LOCATION: Pilani<br />
+                EMAIL: kris46@gmail.com<br />
+                GENDER: Male<br />
+                CONTACT: +91 9241168528 <br />
+          </p>
+        </div>
+        
+        <div id="b3" class="containerTab" style="display:none;background:rgb(27, 29, 29)">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img src="/img/Cardio3.jpg" width="250px" height="270px" style="margin-left: 80px;">
+          <p style="float: right; margin-right: 180px; margin-left: 40px; margin-top: 55px; font-size: 20px; line-height: 40px;">
+                LOCATION: Kota<br />
+                EMAIL: bhaskar34@gmail.com<br />
+                GENDER: Male<br />
+                CONTACT: +91 9063584228 <br />
+          </p>
+        </div>
+        
+        <div id="b4" class="containerTab" style="display:none;background:rgb(27, 29, 29)">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img src="/img/Cardio4.jpg" width="250px" height="250px" style="margin-left: 100px;">
+            <p style="float: right; margin-right: 180px; margin-left: 20px; margin-top: 55px; font-size: 20px; line-height: 40px;">
+                LOCATION: Udaipur<br />
+                EMAIL: avanti28@gmail.com<br />
+                GENDER: Female<br />
+                CONTACT: +91 8233950021 <br />
+            </p>
+          </div>
+        
+       
+          <!--FOOTER STARTS HERE-->
+          <footer style="padding-top: -0.5% ; padding-bottom: 5.5%;">
+            <div class="container pt-5 border-bottom container-feedback">
+              <div class="row">
+                <div class="col-md-3 col-sm-12 mb-3 text-center" style="margin-left: 1%;padding-top: 1%;">
+                    <img class="logofooter" src="img/LOGOFOOTER.png" alt="logo" style="width: 314px;;">
+                    <div class="row feedback" style="padding-left: 41%;padding-bottom: 2.5%; margin-top: -16%;">  
+                      <a href="/feedback"><button type="button" class="btn btn-success" style="height: 50px;width: 100px;color: white;background-color: green;">Feedback</button></a>
+                  </div>
+                </div>
+                
+                <div class="col-md-9 col-sm-12" style="display: inline-flex; padding-left: 30%; font-size: large;">
+                    
+                    <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3"> 
+                    
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left" style="margin-left: 25%; ">
+                        <ul class="list-group" style="width:max-content;list-style-type: none;">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Home</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home#hey" style="color: white;text-decoration: none;">FAQ</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Contact Us</a></li>
+          
+                        </ul>
+                    </div>  
+          
+                    <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%;">
+                        <ul class="list-group"style="width:max-content;list-style-type: none;">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/homeremedy" style="color: white;text-decoration: none;"></i>Home Remedies</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/everyday" style="color: white;text-decoration: none;"></i>Yoga</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/bodyfacts" style="color: white;text-decoration: none;"></i>Facts About Your Body</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/asmr/main" style="color: white;text-decoration: none;"></i>ASMR</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;"></i>Quarantine Locations</a></li>
+                        </ul>
+                    </div>
+          
+                    <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%">
+                        <ul class="list-group" style="list-style-type: none; ">
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                                <a href="https://www.linkedin.com/" style="color: white;text-decoration: none;"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                                <a href="https://twitter.com/" style="color: white;text-decoration: none;"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
+                            </li>
+                            
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                                <a href="https://plus.google.com/109511516185666043480" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-google-plus mr-1"></i> Google+</a>
+                            
+                            </li>
+                            
+                           
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                                <a href="https://www.facebook.com/" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-facebook mr-1"></i> Facebook</a>
+                            </li>
+                           
+                    
+                        </ul>
+                    </div>
+          
+                </div>
+                  <div class="col-md-12">
+                    
+                  </div>
+          
+            </div>
+          </footer>
+      <!--DOCTOR DESC SCRIPT FILE-->
+      <script>
+        function openTab(tabName) {
+          var i, x;
+          x = document.getElementsByClassName("containerTab");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          document.getElementById(tabName).style.display = "block";
+        }
+        </script>
+</body>
+</html>

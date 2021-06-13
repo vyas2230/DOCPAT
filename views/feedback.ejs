@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <link rel="stylesheet" href="/css/feedback.css">
+    </head>
+    <body>
+        <form class="my-form" method="POST">
+            <div class="container">
+              <img src="/img/LOGONEW.png" alt="logo">
+              <h1>Feedback</h1>
+              <ul>    
+                <li>
+                  <textarea placeholder="Message" name="msg" required></textarea>
+                </li>   
+                <li>
+                  <input type="checkbox" id="terms">
+                  <label for="terms">All the above information is correct</label>
+                </li>  
+                <li>
+                  <div class="grid grid-3">
+                    <div class="required-msg">REQUIRED FIELDS</div>
+              
+                    <button class="btn-grid" type="submit" disabled>
+                        
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                      </span>
+                     <span class="front"> SUBMIT</span>
+                    </button>
+              
+                    <button class="btn-grid" type="reset" disabled>
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                      </span>
+                      <span class="front">RESET</span>
+                    </button> 
+    
+
+                  </div>
+                </li>    
+              </ul>
+            </div>
+            <% if (locals.login_errors) { 
+              login_errors.forEach(function(error_msg){ %>
+              <div class="alert alert-danger" role="alert"><%= error_msg %></div>
+            <% });
+            } %>
+           
+          </form>
+          <script src="/js/feedback.js"></script>
+    </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/css/videoasmr.css">
+
+</head>
+<body>
+
+  <div class="topnav" >
+    <img src="/img/LOGONEW.png" style="height: 70px;">
+    <!--<a href="/logout"><button class="btn btn-danger" style=" float:right; margin-top: -1px; cursor: pointer; margin-right: 25px; background-color: rgb(24, 74, 121); color: cornsilk; border: none; outline: none; height:23px;">LOGOUT</button></a>-->
+    <div class="dropdown">
+        <button class="dropbtn" style="padding-right: 70px; padding-top: 30px;"><%= name %>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/profile">Profile</a>
+          <a href="/bmi">BMI</a>
+          <a href="/delete">Delete Account</a>
+          <a href="/logout  ">Logout</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" style="padding-top: 30px;">FEATURES
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/asmr/main">ASMR</a>
+          <a href="/bodyfacts">BODY FACTS</a>
+          <a href="/Homeremedy">HOME REMEDY</a>
+          <a href="/everyday">YOGA</a>
+          <a href="/covidtracker">COVID-19 TRACKER</a>
+          <a href="/Vaccination_centre">VACCINATION CENTRE</a>
+        </div>
+    </div>
+    <a href="/special">DOCTOR</a>
+    <a href="/predict">PREDICTION</a>
+    <a href="/home">HOME</a>
+  </div>
+
+
+<div class="content">
+  <h1>>BREATHE.LET GO.MAKE YOUR SOUL HAPPY</h1>
+
+
+  </div>
+
+<div class="tab2">
+  
+  <button class="tablinks2" onclick="openasmr2(event, 'Invisible triggers')" id="defaultOpen2">Invisible triggers</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Light')">Light</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Humming/Singing')">Humming/Singing</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Positive quotes')">Positive quotes</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Layered sounds')">Layered sounds</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Brain Scratching')">Brain Scratching</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Tapping')">Tapping</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Finger Tracing')">Finger Tracing</button>
+  <button class="tablinks2" onclick="openasmr2(event, 'Massage')">Massage</button>
+  
+  
+</div>
+
+<div id="Invisible triggers" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Invisible Triggers.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Light" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/light.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Humming/Singing" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/humming.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Positive quotes" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Positive Quotes.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Layered sounds" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Layered.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Brain Scratching" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Scratching.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Tapping" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Tapping.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Finger Tracing" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Finger Tracing.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="Massage" class="tabcontent2">
+  <video width="800px" height="545" controls>
+    <source src="/asmr/Head Massage.mp4" type="video/mp4">
+    </video>
+</div>
+<footer style="padding-top: -0.5% ; padding-bottom: 5.5%;">
+  <div class="container pt-5 border-bottom container-feedback">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 mb-3 text-center" style="margin-left: 1%;padding-top: 1%;">
+          <img class="logofooter" src="/asmr/LOGOFOOTER.png" alt="logo" style="width: 314px;;">
+          <div class="row feedback" style="padding-left: 41%;padding-bottom: 2.5%; margin-top: -20%;">  
+            <a href="/feedback"><button type="button" class="btn btn-success" style="height: 50px;width: 100px;color: white;background-color: green;">Feedback</button></a>
+        </div>
+      </div>
+      
+      <div class="col-md-9 col-sm-12" style="display: inline-flex; padding-left: 35%; font-size: large;">
+          
+          <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3"> 
+          
+          </div>
+          
+          <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left" style="margin-left: 25%; ">
+              <ul class="list-group" style="width:max-content;list-style-type: none;">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Home</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home#hey" style="color: white;text-decoration: none;">FAQ</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Contact Us</a></li>
+
+              </ul>
+          </div>  
+
+          <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%;">
+              <ul class="list-group"style="width:max-content;list-style-type: none;">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/homeremedy" style="color: white;text-decoration: none;"></i>Home Remedies</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/everyday" style="color: white;text-decoration: none;"></i>Yoga</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/bodyfacts" style="color: white;text-decoration: none;"></i>Facts About Your Body</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/asmr/main" style="color: white;text-decoration: none;"></i>ASMR</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/covidtracker" style="color: white;text-decoration: none;"></i>COVID-19 Tracker</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/Vaccination_Centre" style="color: white;text-decoration: none;"></i>Vaccination Centre</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%">
+              <ul class="list-group" style="list-style-type: none; ">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://www.linkedin.com/" style="color: white;text-decoration: none;"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
+                  </li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://twitter.com/" style="color: white;text-decoration: none;"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
+                  </li>
+                  
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://plus.google.com/109511516185666043480" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-google-plus mr-1"></i> Google+</a>
+                  
+                  </li>
+                  
+                 
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://www.facebook.com/" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-facebook mr-1"></i> Facebook</a>
+                  </li>
+                 
+          
+              </ul>
+          </div>
+
+      </div>
+        <div class="col-md-12">
+          
+        </div>
+
+  </div>
+</footer>
+
+
+<script>
+function openasmr2(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen2").click();
+</script>
+   
+</body>
+</html> 
+
+    
+
+
+    <!--
+   
+<!--<button onclick="playVideo()" type="button">Play</button>
+<button onclick="pauseVideo()" type="button">Pause</button><br> 
+
+<video id="myVid" width="400" height="200">
+ <source src="Finger Tracing.mp4" type="video/mp4">
+  Sorry, your browser does not support HTML5 video.
+</video>
+<script> 
+var myVideo = document.getElementById("myVid");
+function playVideo() { 
+ myVideo.play(); 
+} 
+function pauseVideo() { 
+ myVideo.pause(); 
+} 
+</script> 
+
+	
+
+	<!--<div class="mainvd">
+		<h1>FIND YOUR CALM...</h1>
+		<h3>Our goal is to help you improve your health and happiness.</h3>
+		<p>choose your best fit and enjoy!</p>
+        </div>
+
+        
+  -->

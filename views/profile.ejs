@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Profile</title>
+        <link rel="stylesheet" href="/css/profile.css">
+       
+    </head>
+    <body>
+      <div class="topnav" >
+        <img src="/img/LOGONEW.png" style="height: 70px;">
+        <!--<a href="/logout"><button class="btn btn-danger" style=" float:right; margin-top: -1px; cursor: pointer; margin-right: 25px; background-color: rgb(24, 74, 121); color: cornsilk; border: none; outline: none; height:23px;">LOGOUT</button></a>-->
+        <div class="dropdown">
+            <button class="dropbtn" style="padding-right: 70px; padding-top: 26px;"><%= name %></button>
+            <div class="dropdown-content">
+              <a href="/profile">Profile</a>
+              <a href="/bmi">BMI</a>
+              <a href="/delete">Delete Account</a>
+              <a href="/logout  ">Logout</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" style="padding-top: 26px;">FEATURES</button>
+            <div class="dropdown-content">
+              <a href="/asmr/main">ASMR</a>
+              <a href="/bodyfacts">BODY FACTS</a>
+              <a href="/Homeremedy">HOME REMEDY</a>
+              <a href="/everyday">YOGA</a>
+              <a href="/covidtracker">COVID-19 TRACKER</a>
+              <a href="/Vaccination_centre">VACCINATION CENTRE</a>
+            </div>
+        </div>
+        <a href="/special">DOCTOR</a>
+        <a href="/predict">PREDICTION</a>
+        <a href="/home">HOME</a>
+      </div>
+      <div class="left" style="padding-left: 120px;">
+        <img src="/img/profile.jpeg" style="height: 450px; width: 400px; margin-top: 50px;" >
+      </div>
+      <div class="right">
+        <div class="container" style="margin-top: 85px; font-size:x-large;">
+          <h1 style="margin-bottom: 20px; padding-left: 40px;">PROFILE</h1>
+          <ul>
+            <li>
+              <div>
+                <label style=" color:black;">Name:</label><label style="padding-left: 50px; margin-bottom: 20px;"><%= fname%>  <%= lname%></label></label> <br>
+              </div>
+            </li>
+            <li>
+              <div>
+                <label style=" color:black;">Email Id:</label><label style="padding-left: 28px;"><%= u_email%> </label>  <br> 
+            </div>
+            </li>    
+            <li>
+                <div>
+                    <label style="color:black;">Gender:</label><label style="padding-left: 37px;"><%= gender%> </label><br>
+                    <label style="color:black;">Age:</label> <label style="padding-left: 73px;"><%= age%> </label><br>
+                </div>
+            </li>   
+            
+            <li>
+                <div>
+                    <label style="color:black;">City:</label><label style="padding-left: 82px;"><%= city%> </label><br>
+                    <label style="color:black;">State:</label> <label style="padding-left: 58px;"><%= state%> </label><br>
+                      
+                </div>
+            </li>
+
+            <li>
+              <div>
+                <label style="color:black;">Phone:</label> <label style="padding-left: 42px;"><%= phone%> </label> <br>
+              </div>
+          </li>     
+          </ul>
+        </div>
+        <div class="profile_button" style="margin-left: 30px; margin-bottom: 20px; margin-top: 40px; ">
+          <a href="/delete"><button style="width: 200px; background-color:white; border-radius: 5px; font-weight:bold; font-size: large; outline: none;cursor:pointer; color:rgb(48, 16, 255); border: none; height: 30px;">Delete Account</button></a>
+          <a href="/history"><button style="width: 200px; background-color:white; border-radius: 5px; font-weight:bold; font-size: large; outline: none;cursor:pointer; color:rgb(48, 16, 255); border: none; height: 30px;">View History</button></a>
+        </div>
+      </div>
+      
+            
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    </body>
+</html>

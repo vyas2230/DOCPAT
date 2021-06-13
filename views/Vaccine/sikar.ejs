@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sikar Vaccination Centres</title>
+        <link rel="stylesheet" href="/css/location.css" type="text/css">
+    </head>
+    <body>
+        <div class="topnav" >
+            <img src="/img/LOGONEW.png" style="height: 70px;">
+            <!--<a href="/logout"><button class="btn btn-danger" style=" float:right; margin-top: -1px; cursor: pointer; margin-right: 25px; background-color: rgb(24, 74, 121); color: cornsilk; border: none; outline: none; height:23px;">LOGOUT</button></a>-->
+            <div class="dropdown">
+                <button class="dropbtn" style="padding-right: 70px; padding-top: 26px;"><%= name %>
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/profile">Profile</a>
+                  <a href="/everyday">BMI</a>
+                  <a href="/delete">Delete Account</a>
+                  <a href="/logout  ">Logout</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="padding-top: 26px;">FEATURES
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/asmr/main">ASMR</a>
+                  <a href="/bodyfacts">BODY FACTS</a>
+                  <a href="/Homeremedy">HOME REMEDY</a>
+                  <a href="/everyday">YOGA</a>
+                  <a href="/covidtracker">COVID-19 Tracker</a>
+                  <a href="/Vaccination_centre">Vaccination Centre</a>
+                </div>
+            </div>
+            <a href="/special">DOCTOR</a>
+            <a href="/predict">PREDICTION</a>
+            <a href="/home">HOME</a>
+          </div>
+        
+          <!-- <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+            <a href="#" class="covid" >Covid Tracker</a>
+          </div> -->
+            
+        <div class="tabs1" style="padding-top: 20px;background-color: black;" >
+            
+        
+            <div class="tab1">
+              <button class="tablinks1" onclick="openasmr1(event, 'Amar Hospital & Research Center')" id="defaultOpen1">Amar Hospital & Research Center</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'Dhayal Hospital and Research Centre')">Dhayal Hospital and Research Centre</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'Getwell Hospital & Research Center')">Getwell Hospital & Research Center</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'Gurukripa Hospital')">Gurukripa Hospital</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'SB Mittal Memorial Heart & Critical Care Hospital')">SB Mittal Memorial Heart & Critical Care Hospital</button> 
+              <!-- <button class="tablinks1" onclick="openasmr1(event, 'Soni Hospital')">Soni Hospital</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'RHL - Rajasthan Hospital')">RHL - Rajasthan Hospital</button>
+              <button class="tablinks1" onclick="openasmr1(event, 'Jaipur Hospital')">Jaipur Hospital</button> -->
+            </div>
+        
+            <div id="Amar Hospital & Research Center" class="tabcontent1 a1">
+                <div style="text-align: -webkit-center;padding-top: 5%;">
+                    <img src="/img/amar hospital-sikar.jpg" style="width: 35%;">
+                </div>
+                <div class="address">
+                    <p><b>Address: </b>Near Chhatriya Bus Stand, Sikar, Rajasthan 332301</p>
+                </div>
+                <div class="phone" style="margin-left: 287px;">
+                    <p><b>Phone: </b>01571232323</p>
+                </div>    
+                <!-- <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+                    <a href="https://education.rajasthan.gov.in/content/raj/education/dr--sampurnanand-medical-college--jodhpur/en/college/INFRASTRUCTURE.html" class="website" >Website</a>
+                </div>           -->
+            </div>
+        
+            <div id="Dhayal Hospital and Research Centre" class="tabcontent1 a2">                
+                <div style="text-align: -webkit-center;padding-top: 5%;">
+                    <img src="/img/dayal hospital.PNG" style="width: 35%;">
+                </div>
+                <div class="address">
+                    <p><b>Address: </b>N.H-11 , Near Math Mandir, Reengus, Sikar , Rajasthan 332404</p>
+                </div>
+                <div class="phone" style="margin-left: 235px;">
+                    <p><b>Phone: </b>09636785947</p>
+                </div>    
+                <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+                    <a href="http://dhayalhospital.com/" class="website" >Website</a>
+                </div>
+            </div>
+        
+            <div id="Getwell Hospital & Research Center" class="tabcontent1 a3">
+                <div style="text-align: -webkit-center;padding-top: 5%;">
+                    <img src="/img/getwell-hospital.jpg" style="width: 30%;">
+                </div>
+                <div class="address">
+                    <p><b>Address: </b>Opp.S.K. School,Near, Dr.B.L.Ranwa (Physician), Sikar, Rajasthan 332001</p>
+                </div>
+                <div class="phone" style="margin-left: 199px;">
+                    <p><b>Phone: </b>01572271101</p>
+                </div>    
+                <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+                    <a href="https://getwellhospitalsikar.com/" class="website" >Website</a>
+                </div>
+            </div>
+                
+            <div id="Gurukripa Hospital" class="tabcontent1 a4">
+                <div style="text-align: -webkit-center;padding-top: 5%;">
+                    <img src="/img/gurukripa hospital.jpg" style="width: 40%;">
+                </div>
+                <div class="address">
+                    <p><b>Address: </b>Piprali Road, Jyoti Nagar, Sikar, Rajasthan 332001</p>
+                </div>
+                <div class="phone" style="margin-left: 292px;">
+                    <p><b>Phone: </b>09460294548</p>
+                </div>    
+                <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+                    <a href="https://gurukripahospitals.co.in/" class="website" >Website</a>
+                </div>
+            </div>    
+            
+            <div id="SB Mittal Memorial Heart & Critical Care Hospital" class="tabcontent1 a5">
+                <div style="text-align: -webkit-center;padding-top: 5%;">
+                    <img src="/img/sb mittal hospital.jpg" style="width: 40%;">
+                </div>
+                <div class="address">
+                    <p><b>Address: </b>Silver Jubilee Rd, opp. SK School, Ward No 35, Sakpura Mohlla, Sikar, Rajasthan 332001</p>
+                </div>
+                <div class="phone" style="margin-left: 133px;">
+                    <p><b>Phone: </b>01572250404</p>
+                </div>    
+                <div style="background-color: black; text-align: -webkit-center;padding-top: 10px;">
+                    <a href="http://sbmittalhospital.com/" class="website" >Website</a>
+                </div>
+            </div> 
+        
+    </div>
+        
+    <footer style="padding-top: 3.5% ; padding-bottom: -0.5%;">
+        <div class="container pt-5 border-bottom container-feedback">
+          <div class="row">
+            <div class="col-md-3 col-sm-12 mb-3 text-center" style="margin-left: 1%;padding-top: 1%;">
+                <img class="logofooter" src="/img/LOGOFOOTER.png" alt="logo" style="width: 314px;;">
+                <div class="row feedback" style="padding-left: 40%;padding-bottom: 2.5%;margin-top: -17%;">  
+                    <a href="/feedback"><button type="button" class="btn btn-success" style="font-size:20px;height: 50px;width: 145px;color: white;background-color: green;">Feedback</button></a>
+              </div>
+            </div>
+            
+            <div class="col-md-9 col-sm-12" style="display: inline-flex; padding-left: 30%; font-size: large;">
+                
+                <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3"> 
+                
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left" style="margin-left: 25%; line-height: 160%;">
+                    <ul class="list-group" style="width:max-content;list-style-type: none;">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Home</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">FAQ</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Contact Us</a></li>
+      
+                    </ul>
+                </div>  
+      
+                <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%;">
+                  <ul class="list-group"style="width:max-content;list-style-type: none;">
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/homeremedy" style="color: white;text-decoration: none;"></i>Home Remedies</a></li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/everyday" style="color: white;text-decoration: none;"></i>Yoga</a></li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/bodyfacts" style="color: white;text-decoration: none;"></i>Facts About Your Body</a></li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/asmr/main" style="color: white;text-decoration: none;"></i>ASMR</a></li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/covidtracker" style="color: white;text-decoration: none;"></i>COVID-19 Tracker</a></li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/Vaccination_Centre" style="color: white;text-decoration: none;"></i>Vaccination Centre</a></li>
+                  </ul>
+              </div>
+    
+              <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%">
+                  <ul class="list-group" style="list-style-type: none; ">
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                          <a href="https://www.linkedin.com/" style="color: white;text-decoration: none;"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
+                      </li>
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                          <a href="https://twitter.com/" style="color: white;text-decoration: none;"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
+                      </li>
+                      
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                          <a href="https://plus.google.com/109511516185666043480" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-google-plus mr-1"></i> Google+</a>
+                      
+                      </li>
+                      
+                     
+                      <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                          <a href="https://www.facebook.com/" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-facebook mr-1"></i> Facebook</a>
+                      </li>
+                     
+              
+                  </ul>
+              </div>
+    
+          </div>
+            <div class="col-md-12">
+              
+            </div>
+    
+      </div>
+    </footer>
+        
+        
+        <script src="/js/location.js"></script>
+    </body>
+</html>

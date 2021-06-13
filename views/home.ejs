@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="/css/HomePage.css">
+      <script src="/js/homepage.js">
+      </script>
+</head>
+<body>
+  <div class="topnav" >
+    <img src="img/LOGONEW.png">
+    <!--<a href="/logout"><button class="btn btn-danger" style=" float:right; margin-top: -1px; cursor: pointer; margin-right: 25px; background-color: rgb(24, 74, 121); color: cornsilk; border: none; outline: none; height:23px;">LOGOUT</button></a>-->
+    
+    <a href="/logout">LOGOUT</a>
+    <a href="/profile"><%= name %></a>
+    <a href="/special">DOCTOR</a>
+    <a href="/predict">PREDICTION</a>
+    <a href="/home">HOME</a>
+  </div>
+  
+    
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="img/Video.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100" style="text-align-last: center;">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white" style="padding-top: 20%;">
+              <h1 class="display-3">WELCOME TO DOCPAT</h1>
+              <p class="lead mb-0">Your Personal Health Care Taker....</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+<div class="heading">
+    <h1 style="text-align: center;">ABOUT US</h1>
+    <p style="text-align: center;">Meet our four team members.</p>
+</div>
+<div class="contain">
+
+<div class="left">
+<div class="img-comp-container">
+  <div class="img-comp-img">
+    <img src="img/2.jpg" width="300" height="300">
+  </div>
+  <div class="img-comp-img img-comp-overlay">
+    <img src="img/1.jpg" width="300" height="300">
+  </div>
+</div>
+</div>
+
+<div class="left">
+<div class="img-comp-container">
+  <div class="img-comp-img">
+    <img src="img/4.jpg" width="300" height="300">
+  </div>
+  <div class="img-comp-img img-comp-overlay">
+    <img src="img/3.jpg" width="300" height="300">
+  </div>
+</div>
+</div>
+
+<div class="left">
+    <div class="img-comp-container">
+      <div class="img-comp-img">
+        <img src="img/6.jpg" width="300" height="300">
+      </div>
+      <div class="img-comp-img img-comp-overlay">
+        <img src="img/5.jpg" width="300" height="300">
+      </div>
+    </div>
+    </div>
+
+    <div class="left">
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="img/8.jpg" width="300" height="300">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="img/7.jpg" width="300" height="300">
+          </div>
+        </div>
+        </div>
+
+  </div>
+
+  <div class ="mission_cont" style="background-color: rgba(212, 212, 212, 0.616);">
+    <h1 style="text-align: center; color: rgb(2, 117, 117); font-size: 50px;"><b>OUR MISSION</b></h1>
+    <p class="mission">
+      We aim to provide a 24/7 healthcare service, for people who reside in potentially remote areas and
+      are in need of medical guidance. It is made with an aim to provide a patient-centered healthcare
+      facility that detects the most relatable/accurate health problem and displays the list of available
+      doctors in the respective cities for further consult. It can be seen as another effort to provide an
+      accessible, easy to use and good quality healthcare service that helps in improving the health and well.
+    </p>
+  </div>
+
+    <!-- starting of other functionality section -->
+    <div class="subtopics">
+      <div class="topic1">
+
+          <div class="image1">
+           <a href="/Homeremedy">   <img src="img/homehome.jpg"  height="400px" width="600px"></a>
+          </div>  <!-- end of topic-img divison-->
+          <div class="info1">
+              <h1>HOME REMEDIES</h1>
+              <p class="content">There is something incredibly empowering about solving a problem on your own and that’s the glory of home remedies! These time-tested solutions to common health problems are easy, safe, and affordable to make at home.Check out some of our most popular, well-tested, safe home remedies.<br>We bet you’ll be hooked after your first remedy!</p>
+          </div>  
+
+      </div> <!-- end of topic1 divison-->
+  
+      <div class="topic2">
+
+          <div class="image2">
+           <a href="/Everyday">   <img src="img/hyoga.jpg"height="400px" width="600px"> </a>
+          </div>  <!-- end of topic-img divison-->
+          <div class="info2">
+              <h1>YOGA</h1>
+              <p class="content">Yoga is a practise that has gained global recognition and has become a fad.Yoga does more than burning calories and strengthening muscles, it is a workout which involves both body and mind.Try yoga for your health problems to cure it.</p>
+          </div>  
+
+      </div> <!-- end of topic1 divison-->
+
+      <div class="topic1">
+
+          <div class="image1">
+            <a href="/asmr/Main">  <img src="img/hasmr.jpeg"   height="400px" width="600px"> </a>
+          </div>  <!-- end of topic-img divison-->
+          <div class="info1">
+              <h1>ASMR</h1>
+              <p class="content">Have you ever listened to the hum of waves, or heard sound of rain droplets, or even sat in the chair and felt a delightful, tingly sensation in your scalp? It begins there, then trickles down your head to your neck and shoulders, leaving marvelous relaxation in its wake. <br>
+                  Find Your Calm Here.<br>
+          </div>  
+
+      </div> <!-- end of topic1 divison-->
+  
+      <div class="topic2">
+
+          <div class="image2">
+              <a href="/bodyfacts"><img src="img/hbody.jpg"   height="400px" width="600px"></a>
+          </div>  <!-- end of topic-img divison-->
+          <div class="info2">
+              <h1>FACTS ABOUT YOUR BODY</h1>
+              <p class="content">How often do we stop to consider how extraordinary our bodies are? These complex machines have millions of internal processes happening every second, all working together to keep us alive and well.<br>These facts may help you appreciate your body even more.</p>
+          </div>  
+
+      </div> <!-- end of topic1 divison-->
+</div>  <!-- end of subtopics divison-->
+
+
+
+<div  id="hey" class='faqhead' style=" color:coral; text-align: center;">
+  <h1>FREQUENTLY ASKED QUESTIONS</h1>
+</div>
+
+
+<div class='faq' style="margin-bottom: 70px;">
+  <input id='faq-a' type='checkbox'>
+  <label for='faq-a'>
+    <p class="faq-heading">How do I find answers to my specific medical questions?</p>
+    <div class='faq-arrow'></div>
+      <p class="faq-text">We have various ways in order to address this issue, you can either choose our chatbot service, and ask everything out. You can reach out to various other pages from the bottom of this page, and if you have more questions, please feel free to submit a request through our feedback! </p>
+  </label>
+  <input id='faq-b' type='checkbox'>
+  <label for='faq-b'>
+    <p class="faq-heading">Are the doctors here professional?</p>
+    <div class='faq-arrow'></div>
+      <p class="faq-text">Yes, we have professional team of doctors who are highly skilled in thier expertise. If you have more questions, please feel free to submit a request through a feedback!</p>
+  </label>
+  <input id='faq-c' type='checkbox'>
+  <label for='faq-c'>
+    <p class="faq-heading">How or where can I contact someone?</p>
+    <div class='faq-arrow'></div>
+      <p class="faq-text">You can visit the contact us Page from the top right corner of this page. If you have more questions, please feel free to submit a request through a feedback!</p>
+  </label>
+  <input id='faq-d' type='checkbox'>
+  <label for='faq-d'>
+    <p class="faq-heading">Are their any other services available then Health problem prediction?</p>
+    <div class='faq-arrow'></div>
+      <p class="faq-text"> Yes, we have taken care of everything when it comes to your health, be it mental health or physical. <br><br>The pages are- ASMR(for deep relaxational sounds), YOGA(helping you out with the right postures for good health), HOME REMEDY(Homeremedies for common day-to-day helath issues), FUN FACTS(fun facts about our body).<br> Link to all these pages can be found at the bottom of this page. If you have more questions, please feel free to submit a request through a feedback!  </p>
+  </label>
+    <input id='settings' type='checkbox'>
+  <input id='faq-f' type='checkbox'>
+  <label for='faq-f'>
+    <p class="faq-heading">Can we consult a doctor inperson?</p>
+    <div class='faq-arrow'></div>
+      <p class="faq-text">We will provide you the details like phone number, name, speciality of doctors and also recommend the doctors based on your disease predicted and your location, but inorder to actually meet the doctor inperson would require permission or appointment from doctor's side, and for that you can easily contact the doctor through thier mails and simply ask out for everything. If you have more questions, please feel free to submit a request through a feedback!</p>
+  </label>
+</div>
+
+
+
+
+<footer style="padding-top: -0.5% ; padding-bottom: 2.5%; overflow: hidden;">
+  <div class="container pt-5 border-bottom container-feedback">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 mb-3 text-center" style="margin-left: 1%;padding-top: 1%;">
+          <img class="logofooter" src="/img/LOGOFOOTER.png" alt="logo" style="width: 314px;;">
+          <div class="row feedback" style="padding-left: 41%;padding-bottom: 2.5%; margin-top: -16%;">  
+            <a href="/feedback"><button type="button" class="btn btn-success" style="height: 50px;width: 100px;color: white;background-color: green;">Feedback</button></a>
+        </div>
+      </div>
+      
+      <div class="col-md-9 col-sm-12" style="display: inline-flex; padding-left: 30%; font-size: large;">
+          
+          <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3"> 
+          
+          </div>
+          
+          <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left" style="margin-left: 29%; ">
+              <ul class="list-group" style="width:max-content;list-style-type: none;">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Home</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home#hey" style="color: white;text-decoration: none;">FAQ</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/home" style="color: white;text-decoration: none;">Contact Us</a></li>
+
+              </ul>
+          </div>  
+
+          <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%;">
+              <ul class="list-group"style="width:max-content;list-style-type: none;">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/homeremedy" style="color: white;text-decoration: none;"></i>Home Remedies</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/everyday" style="color: white;text-decoration: none;"></i>Yoga</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/bodyfacts" style="color: white;text-decoration: none;"></i>Facts About Your Body</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/asmr/main" style="color: white;text-decoration: none;"></i>ASMR</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/covidtracker" style="color: white;text-decoration: none;"></i>COVID-19 Tracker</a></li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/Vaccination_Centre" style="color: white;text-decoration: none;"></i>Vaccination Centre</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left" style=" padding-left: 20%">
+              <ul class="list-group" style="list-style-type: none; ">
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://www.linkedin.com/" style="color: white;text-decoration: none;"><i class="fa fa-linkedin mr-1"></i> LinkedIn</a>
+                  </li>
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://twitter.com/" style="color: white;text-decoration: none;"><i class="fa fa-twitter mr-1"></i> Twitter</a>       
+                  </li>
+                  
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://plus.google.com/109511516185666043480" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-google-plus mr-1"></i> Google+</a>
+                  
+                  </li>
+                  
+                 
+                  <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                      <a href="https://www.facebook.com/" target="_blank" style="color: white;text-decoration: none;"><i class="fa fa-facebook mr-1"></i> Facebook</a>
+                  </li>
+                 
+          
+              </ul>
+          </div>
+
+      </div>
+        <div class="col-md-12">
+          
+        </div>
+
+  </div>
+</footer>
+
+<script>
+/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+initComparisons();
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+</body>
+</html>
